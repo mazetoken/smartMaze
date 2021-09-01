@@ -1,0 +1,14 @@
+{
+  "networks": {
+      "SmartBCH": {
+              "contracts": {
+                "_MazeToken": {"name":"MAZE", "blockchain_address":""}
+              }
+            },
+      "testnet": {
+              "contracts": {
+                "_MazeToken": {"name":"MAZE", "blockchain_address":""}
+              }
+            }
+    }
+}

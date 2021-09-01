@@ -1,0 +1,10 @@
+{
+  "mining_account_public_address":"your-wallet-address",
+  "mining_account_private_key":"your-wallet-address-key",
+  "mining_style":"solo",
+  "contract_address":"0x481de06dca0198844faa36fca04db364e5c2f86c",
+  "pool_url":"",
+  "gas_price_gwei": 1050000000,
+  "cpu_thread_count": 1,
+  "web3provider": "wss://smartbch-wss.greyh.at"
+}
