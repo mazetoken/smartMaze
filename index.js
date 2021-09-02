@@ -13,7 +13,7 @@ var NetworkInterface = require("./lib/network-interface");
 var PoolInterface = require("./lib/pool-interface");
 
 var Web3 = require("web3");
-// let web3 = new Web3(new Web3.providers.WebsocketProvider("wss://smartbch.fountainhead.cash/ws/mainnet"));
+// var web3 = new Web3(new Web3.providers.WebsocketProvider("wss://smartbch.fountainhead.cash/ws/mainnet"));
 var web3 = new Web3(new Web3.providers.WebsocketProvider("wss://smartbch-wss.greyh.at"));
 // var web3 = new Web3(new Web3.providers.HttpProvider("https://smartbch.greyh.at"));
 

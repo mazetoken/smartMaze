@@ -2,6 +2,8 @@
 
 ## MAZE - mineable smartBCH (SEP20) token based on [0xBitcoin](https://0xbitcoin.org/#/)
 
+_* [MAZE]((https://github.com/mazetoken/mminer) is also mineable BCH SLP token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract. Visit MAZE Token [Telegram Group](https://t.me/mazeslptoken) and the [website](https://mazetoken.github.io)_
+
 ```
 Symbol: MAZE
 Name: MAZE
@@ -10,14 +12,19 @@ smartBCH contract address: 0x481de06dca0198844faa36fca04db364e5c2f86c
 Genesis transaction: https://www.smartscan.cash/transaction/0xce71475419dca1a39fa12555f70909974aa34d2eed1150c29cf3225bc412c7c1
 Initial supply: 0
 Max total supply: 21000000
-Mining reward: 800 MAZE
+Mining reward: 800 MAZE, 400 when supply is 10500000, ...
+Mining transaction fee: about 9000 BCH satoshis
+Block reward time: 1 minute, but might be faster
+Difficulty is adjusted automatically or every 4320 smartBCH blocks
 ```
+
+_* This is not an investment advice. Use it at your own risk._
 
 ## Mining (CPU)
 
 The miner is based on 0xBitcoin [miner](https://github.com/0xbitcoin/0xbitcoin-miner)
 
-Download/clone the smartMaze repository, open `miner-config.json` file in any editor and paste your wallet address and private key. Do not change the gas price (1050000000) - it is 1.05 gwei
+Download/clone the smartMaze repository, open `miner-config.json` file in any editor and paste your wallet address and private key. Do not change the gas price (1050000000) - it is 1.05 gwei. To change web3provider go to `index.js` file lines 16-18 (comment and remove comment to choose provider) and replace provider uri in `miner-config.json` 
 
 ```
 {
@@ -32,11 +39,39 @@ Download/clone the smartMaze repository, open `miner-config.json` file in any ed
 }
 ```
 
-Install on Linux:
+Install the miner on Linux or Linux subsystem for Windows 10:
 
-- install Nodejs and Node Version Manager (nvm)
+- Open Windows Control panel - go to "Programs" - go to "Turn Windows features on or off" - select "Windows Subsystem for Linux" and check the box, click ok and reboot Windows
 
-- navigate to smartMaze directory and type:
+- Download and install Ubuntu 20.4 LTS (or Debian) from Microsoft Store
+
+- Open Linux terminal (command line)
+
+- Setup your username and password
+
+- In a command line type commands (press enter after every command):
+
+`cd /mnt/c`
+
+`sudo apt update`
+
+`sudo apt upgrade`
+
+`sudo apt-get install wget curl`
+
+`curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -`
+
+`sudo apt-get install -y nodejs`
+
+`sudo apt-get install git cmake gcc g++ make`
+
+- Install Node Version Manager (nvm)
+
+`curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash`
+
+`source ~/.profile`
+
+- navigate to smartMaze directory and type commands:
 
 `nvm install 10`
 
@@ -50,9 +85,9 @@ Install on Linux:
 
 `npm run miner`
 
-_*Ignore warnings. If the miner is not working try `node-gyp rebuild`_
+- to stop the miner use Ctrl C
 
-More detailed tutorial and token description soon
+_*Ignore warnings. If the miner is not working try `node-gyp rebuild`. Every time you close the command line and open it again, navigate to smartMaze directory and run `nvm use 10` first_
 
 
 
