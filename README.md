@@ -2,7 +2,11 @@
 
 ## MAZE - mineable smartBCH (SEP20) token based on [0xBitcoin](https://0xbitcoin.org/#/)
 
-_* [MAZE]((https://github.com/mazetoken/mminer) is also mineable BCH SLP token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract. Visit MAZE Token [Telegram Group](https://t.me/mazeslptoken) and the [website](https://mazetoken.github.io)_
+_* [MAZE]((https://github.com/mazetoken/mminer) is also mineable Bitcoin Cash Simple Ledger Protocol (SLP) token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract. Visit MAZE Token [Telegram Group](https://t.me/mazeslptoken) and the [website](https://mazetoken.github.io)_
+
+MAZE is different than most of SLP and SEP20 tokens. It is decentralized and permissionless. No premine and no presale. MAZE Token should not be considered as security. There is neither central distribution nor central developement or marketing.
+
+Read about smartBCH [here](https://smartbch.org) and [here](https://docs.smartbch.org/smartbch/)
 
 ```
 Symbol: MAZE
@@ -15,10 +19,38 @@ Max total supply: 21000000
 Mining reward: 800 MAZE, 400 when supply is 10500000, ...
 Mining transaction fee: about 9000 BCH satoshis
 Block reward time: 1 minute, but might be faster
-Difficulty is adjusted automatically or every 4320 smartBCH blocks
+Difficulty readjustement every 4320 blocks
 ```
 
-_* This is not an investment advice. Use it at your own risk._
+_* This is not an investment advice or recommendation. Use it at your own risk. Get the code and make it better._
+
+#### RISK: there is no guarantee that you will get mining reward and transaction gas could be spent even if you do not mine anything. Please read [How EIP918 Mining Works](https://0xbitcoin.org/#/)
+
+--------------------------------------------------------------------------------------------
+
+## smartBCH network and wallet
+
+Use [MetaMask](https://metamask.io/)
+
+Add network:
+
+```
+Network name: SmartBCH
+RPC URL: https://smartbch.greyh.at
+or
+https://smartbch.fountainhead.cash/mainnet
+or
+https://rpc.uatvo.com
+
+Chain ID: 10000
+Currency Symbol: BCH
+```
+
+Get SEP20 BCH:
+
+Deposit Bitcoin Cash to your [CoinFlex](https://coinflex.com/) wallet and withdraw Bitcoin Cash SEP20 to your smartBCH MetaMask wallet address
+
+--------------------------------------------------------------------------------------------
 
 ## Mining (CPU)
 
@@ -89,6 +121,13 @@ Install the miner on Linux or Linux subsystem for Windows 10:
 
 _*Ignore warnings. If the miner is not working try `node-gyp rebuild`. Every time you close the command line and open it again, navigate to smartMaze directory and run `nvm use 10` first_
 
+----------------------------------------------------------------------------------------
+
+## Other
+
+[smartBCH explorer](https://smartscan.cash)
+
+[Grafana smartBCH](https://smartbch.fountainhead.cash/grafana/d/GUnTOBGnz/smartbch?orgId=1&refresh=5s)
 
 
 
