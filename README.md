@@ -2,7 +2,7 @@
 
 ## MAZE - mineable smartBCH (SEP20) token based on [0xBitcoin](https://0xbitcoin.org/#/)
 
-_* [MAZE]((https://github.com/mazetoken/mminer) is also mineable Bitcoin Cash Simple Ledger Protocol (SLP) token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract. Visit MAZE Token [Telegram Group](https://t.me/mazeslptoken) and the [website](https://mazetoken.github.io)_
+_* [MAZE]((https://github.com/mazetoken/mminer) is also mineable Bitcoin Cash Simple Ledger Protocol (SLP) token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract. Visit MAZE Token [Telegram Group](https://t.me/mazetokens) and the [website](https://mazetoken.github.io)_
 
 MAZE is different than most of SLP and SEP20 tokens. It is decentralized and permissionless. No premine and no presale. MAZE Token should not be considered as security. There is neither central distribution nor central developement or marketing.
 
