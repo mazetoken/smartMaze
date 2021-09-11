@@ -2,12 +2,12 @@
   "networks": {
       "SmartBCH": {
               "contracts": {
-                "_MazeToken": {"name":"MAZE", "blockchain_address":""}
+                "_MazeToken": {"name":"MAZE", "blockchain_address":"0x481de06dca0198844faa36fca04db364e5c2f86c"}
               }
             },
       "testnet": {
               "contracts": {
-                "_MazeToken": {"name":"MAZE", "blockchain_address":""}
+                "_MazeToken": {"name":"MAZE", "blockchain_address":"0x481de06dca0198844faa36fca04db364e5c2f86c"}
               }
             }
     }

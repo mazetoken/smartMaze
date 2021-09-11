@@ -1,7 +1,7 @@
 var web3Utils = require('web3-utils');
 const Tx = require('ethereumjs-tx');
 //const Vault = require("./vault");
-var tokenContractJSON = require('../contracts/_MazeToken.json');
+var tokenContractJSON = require('../contracts/cool.json');
 var busySendingSolution = false;
 var queuedMiningSolutions = [];
 var lastSubmittedMiningSolutionChallengeNumber;

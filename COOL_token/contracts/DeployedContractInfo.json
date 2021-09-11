@@ -1,0 +1,14 @@
+{
+  "networks": {
+      "SmartBCH": {
+              "contracts": {
+                "cool": {"name":"COOL", "blockchain_address":"0x9cc5804e944eaca94400e37dc09cc40b932759cf"}
+              }
+            },
+      "testnet": {
+              "contracts": {
+                "cool": {"name":"COOL", "blockchain_address":"0x9cc5804e944eaca94400e37dc09cc40b932759cf"}
+              }
+            }
+    }
+}

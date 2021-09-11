@@ -1,40 +1,28 @@
 # smartMaze miner
 
-## MAZE - mineable smartBCH (SEP20) token based on [0xBitcoin](https://0xbitcoin.org/#/)
+## COOL - mineable smartBCH (SEP20) token based on [0xBitcoin](https://0xbitcoin.org/#/)
 
-_* [MAZE](https://github.com/mazetoken/mminer) is also mineable Bitcoin Cash Simple Ledger Protocol (SLP) token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract. Visit MAZE Token [Telegram Group](https://t.me/mazetokens) and the [website](https://mazetoken.github.io)_
+You can take this token and do whatever you want e.g. build a project, website, social network group, create an icon, ...
 
-MAZE contract is in contracts directory (MazeToken.sol)
-
-MAZE is different than most of SLP and SEP20 tokens. It is decentralized and permissionless. No premine and no presale. MAZE Token should not be considered as security. There is neither central distribution nor central developement or promotion/marketing.
+COOL contract is in contracts directory (cool.sol)
 
 Read about smartBCH [here](https://smartbch.org) and [here](https://docs.smartbch.org/smartbch/)
 
 [smartBCH explorer](https://smartscan.cash)
 
 ```
-Symbol: MAZE
-Name: MAZE
-Decimals: 6
-smartBCH contract address: 0x481de06dca0198844faa36fca04db364e5c2f86c
-Genesis transaction: https://www.smartscan.cash/transaction/0xce71475419dca1a39fa12555f70909974aa34d2eed1150c29cf3225bc412c7c1
+Symbol: COOL
+Name: COOL
+Decimals: 8
+smartBCH contract address: 0x9cc5804e944eaca94400e37dc09cc40b932759cf
 Initial supply: 0
 Max total supply: 21000000
-Mining reward: 800 MAZE, 400 when supply is 10500000, ...
+Mining reward: 50 COOL, 25 when supply is 10500000, ...
 Mining transaction fee: about 9800 BCH satoshis
-Block reward time: 1 minute, but might be faster
-Difficulty readjustement every 4320 blocks
+Difficulty readjustement every 1024 blocks
 ```
 
-_* This is not an investment advice or recommendation. Use it at your own risk. Get the code and make it better._
-
 #### RISK: there is no guarantee that you will get mining reward and transaction gas could be spent even if you do not mine anything. Please read [How EIP918 Mining Works](https://0xbitcoin.org/#/)
-
-![MAZE icon](img/maze200.png)
-
-[IPFS maze_asset_icon](https://gateway.pinata.cloud/ipfs/QmQhEHRbxsFvSxaBFhSUD92z3WQNSYxfW9iFJmYBWRR2JL)
-
-[IPFS maze_asset_metadata](https://gateway.pinata.cloud/ipfs/QmYXkNBuN3ZLKWxaFUJXrjdv5dkvqTP9bAQo1H9vjCVZuB)
 
 --------------------------------------------------------------------------------------------
 
@@ -66,14 +54,14 @@ Deposit Bitcoin Cash to your [CoinFlex](https://coinflex.com/) wallet and withdr
 
 The miner is based on 0xBitcoin [miner](https://github.com/0xbitcoin/0xbitcoin-miner)
 
-Download/clone the smartMaze repository, open `miner-config.json` file in any editor and paste your wallet address and private key. Do not change the gas price (1050000000) - it is 1.05 gwei. To change web3provider go to `index.js` file lines 16-20 (comment and remove comment to choose provider) and replace provider uri in `miner-config.json` 
+Download/clone the smartMaze repository, go to COOL_token, open `miner-config.json` file in any editor and paste your wallet address and private key. Do not change the gas price (1050000000) - it is 1.05 gwei. To change web3provider go to `index.js` file lines 16-20 (comment and remove comment to choose provider) and replace provider uri in `miner-config.json` 
 
 ```
 {
   "mining_account_public_address":"your-wallet-address",
   "mining_account_private_key":"your-wallet-address-key",
   "mining_style":"solo",
-  "contract_address":"0x481de06dca0198844faa36fca04db364e5c2f86c",
+  "contract_address":"0x9cc5804e944eaca94400e37dc09cc40b932759cf",
   "pool_url":"",
   "gas_price_gwei": 1050000000,
   "cpu_thread_count": 1,
@@ -113,7 +101,7 @@ Install the miner on Linux or Linux subsystem for Windows 10:
 
 `source ~/.profile`
 
-- navigate to smartMaze directory and type commands:
+- navigate to COOL_token directory and type commands:
 
 `nvm install 10`
 
@@ -129,7 +117,13 @@ Install the miner on Linux or Linux subsystem for Windows 10:
 
 - to stop the miner use Ctrl C
 
-_*Ignore warnings. If the miner is not working try `node-gyp rebuild`. Every time you close the command line and open it again, navigate to smartMaze directory and run `nvm use 10` first_
+_*Ignore warnings. If the miner is not working try `node-gyp rebuild`. Every time you close the command line and open it again, navigate to COOL_token directory and run `nvm use 10` first_
 
 ----------------------------------------------------------------------------------------
+
+[smartBCH explorer](https://smartscan.cash)
+
+
+
+
 

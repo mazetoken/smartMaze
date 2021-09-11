@@ -21,7 +21,7 @@ var web3 = new Web3(new Web3.providers.WebsocketProvider("wss://smartbch-wss.gre
 
 var running = true;
 
-console.log('smartMaze miner');
+console.log('COOL miner');
 console.log('Version: ',pjson.version);
 console.log('\n');
 

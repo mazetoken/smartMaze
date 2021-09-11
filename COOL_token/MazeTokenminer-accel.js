@@ -5,9 +5,7 @@ var leftpad =  require('leftpad');
 const BN = require('bn.js');
 
 var debugLogger = require('./lib/debug-logger')
-
-var tokenContractJSON = require('./contracts/_MazeToken.json');
-
+var tokenContractJSON = require('./contracts/cool.json');
 var CPUMiner = require('./build/Release/cpuminer');
 
 //only load this if selecting 'gpu mine!!!'
@@ -52,7 +50,7 @@ module.exports =  {
       {
         console.log('Selected mining contract:', tokenContract.address  );
         console.log('\n')
-        console.log("Gas price is "+ gasPriceGwei + ' gwei');
+        console.log("Gas price is"+ gasPriceGwei + 'gwei');
         console.log('\n')
 
       }else if(miningStyle == "pool" )
@@ -73,7 +71,7 @@ module.exports =  {
 
        await self.initMiningProcedure(miningStyle, minerAccountAddress,miningParameters);
 
-      self.miningLogger.appendToStandardLog("Begin mining for " + minerAccountAddress + " with gasprice " +  gasPriceGwei);
+      self.miningLogger.appendToStandardLog("Begin mining for" + minerAccountAddress + "with gasprice" +  gasPriceGwei);
 
       console.log("Mining for  "+ minerAccountAddress);
 
