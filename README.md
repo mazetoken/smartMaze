@@ -1,16 +1,14 @@
 # smartMaze miner
 
-## MAZE - mineable smartBCH (SEP20) token based on [0xBitcoin](https://0xbitcoin.org/#/)
+## MAZE - a mineable (proof-of-work) smartBCH SEP20 token based on [0xBitcoin](https://0xbitcoin.org/#/)
 
-_* [MAZE](https://github.com/mazetoken/mminer) is also mineable Bitcoin Cash Simple Ledger Protocol (SLP) token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract. Visit MAZE Token [Telegram Group](https://t.me/mazetokens) and the [website](https://mazetoken.github.io)_
+[MAZE Token website](https://mazetoken.github.io)
 
-MAZE contract is in contracts directory (MazeToken.sol)
+[MAZE Token Telegram Group](https://t.me/mazetokens)
 
-MAZE is different than most of SLP and SEP20 tokens. It is decentralized and permissionless. No premine and no presale. MAZE Token should not be considered as security. There is neither central distribution nor central developement or promotion/marketing.
+MAZE Token contract is in contracts directory (MazeToken.sol)
 
-Read about smartBCH [here](https://smartbch.org) and [here](https://docs.smartbch.org/smartbch/)
-
-[smartBCH explorer](https://smartscan.cash)
+MAZE is different than most of SEP20 tokens. It is decentralized and permissionless. No premine and no presale. MAZE Token should not be considered as security. There is neither central distribution nor central developement or promotion/marketing.
 
 ```
 Symbol: MAZE
@@ -19,9 +17,9 @@ Decimals: 6
 smartBCH contract address: 0x481de06dca0198844faa36fca04db364e5c2f86c
 Genesis transaction: https://www.smartscan.cash/transaction/0xce71475419dca1a39fa12555f70909974aa34d2eed1150c29cf3225bc412c7c1
 Initial supply: 0
-Max total supply: 21000000
-Mining reward: 800 MAZE, 400 when supply is 10500000, ...
-Mining transaction fee: about 9800 BCH satoshis
+Max total supply: 21,000,000.000000
+Mining reward: 800 MAZE, 400 when supply is 10,500,000, ...
+Mining transaction fee: about 9800 BCH satoshi
 Block reward time: 1 minute, but might be faster
 Difficulty readjustement every 4320 blocks
 ```
@@ -35,6 +33,10 @@ _* This is not an investment advice or recommendation. Use it at your own risk. 
 [IPFS maze_asset_icon](https://gateway.pinata.cloud/ipfs/QmQhEHRbxsFvSxaBFhSUD92z3WQNSYxfW9iFJmYBWRR2JL)
 
 [IPFS maze_asset_metadata](https://gateway.pinata.cloud/ipfs/QmYXkNBuN3ZLKWxaFUJXrjdv5dkvqTP9bAQo1H9vjCVZuB)
+
+[smartBCH explorer](https://smartscan.cash)
+
+Read about smartBCH [here](https://smartbch.org) and [here](https://docs.smartbch.org/smartbch/)
 
 --------------------------------------------------------------------------------------------
 
